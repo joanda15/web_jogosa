@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Joan David Gomezjurado Sánchez">
+  <title>Jogosa Dev</title>
+  <link rel="icon" href="/src/imgs/logo_Jogosa.jpg">
+  <link rel="stylesheet" href="/src/styles/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand text-center" href="#">Jogosa <br> Dev</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="#conoceme">Conóceme</a>
+                <a class="nav-link" href="#herramientas">Herramientas tecnológicas</a>
+                <a class="nav-link" href="#servicios">Servicios de software</a>
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Proyectos realizados
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#proyectos">Foto Studio - App Android</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#proyectos">Foto Studio - Página web</a></li>
+                        <li><a class="dropdown-item" href="#proyectos">Pachamama - Página web</a></li>
+                        <li><a class="dropdown-item" href="#proyectos">Fundación Fupsinort - Página web</a></li>
+                        <li><a class="dropdown-item" href="#proyectos">Celeste model - Página web</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#proyectos">Ana Milena Shoes - Tienda virtual</a></li>
+                    </ul>
+                </div>
+                <a class="nav-link" href="#pronosticador">Software pronosticador</a>
+                <a class="nav-link" href="#links">Links de información</a>
+                <a class="nav-link" href="#contactos">Contáctame</a>
+            </div>
+        </div>
+    </div>
+  </nav>
+  <!-- Conoceme -->
+  <div class="conoceme bg-light text-dark text-center" id="conoceme">
+    <div class="logo">
+      <img src="/src/imgs/logo_Jogosa.jpg" alt="logo presentación">
+      <h4 class="card-title">Joan David Gomezjurado Sánchez</h4>
+      <p class="card-text">Soy profesional en desarrollo y análisis de software para sistemas Web, Android y Windows.</p>
+      <p>Programador amante de JavaScript</p>
+      <a href="/src/docs/CV_Joan_Gomezjurado_Dev.pdf" target="_blank" class="btn btn-primary">Descarga CV</a>
+    </div>
+    <div class="contenido">
+      <div class="d-flex justify-content-center d-flex flex-column align-items-center">
+        <img src="/src/imgs/foto3.png" class="card-img-top" style="width: 55%;" alt="foto perfil">
+      </div>
+    </div>
+  </div>
+  <!-- Herramientas -->
+  <div id="herramientas">
+    <h3 class="tituloHerramientas mt-4">Herramientas de Planeacion y requerimientos</h3>
+    <div class="container p-1">
+      <div class="row row-cols-2 row-cols-md-6 g-2 justify-content-center">
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://workspace.google.com/intl/es-419/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/googleWorkspace.jpg" class="card-img-top" alt="google workspace">
+              <div class="card-body">
+                <h5 class="card-title">Google Workspace</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://markdown.es/sintaxis-markdown/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/md.jpg" class="card-img-top" alt="markdown">
+              <div class="card-body">
+                <h5 class="card-title">Markdown</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://www.atlassian.com/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/atlassian.jpg" class="card-img-top" alt="atlassian">
+              <div class="card-body">
+                <h5 class="card-title">Atlassian</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="tituloHerramientas">Herramientas de Diseño UI</h3>
+    <div class="container p-1">
+      <div class="row row-cols-2 row-cols-md-6 g-2 justify-content-center">
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://www.figma.com/es-es/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/figma.jpg" class="card-img-top" alt="figma">
+              <div class="card-body">
+                <h5 class="card-title">Figma</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://www.adobe.com/home?acomLocale=la&promoid=VTC5JZ8L&mv=other" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/psd.jpg" class="card-img-top" alt="photoshop">
+              <div class="card-body">
+                <h5 class="card-title">Photoshop</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://www.microsoft.com/es-co/microsoft-365/visio/flowchart-software" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/visio.jpg" class="card-img-top" alt="visio">
+              <div class="card-body">
+                <h5 class="card-title">Microsoft Visio</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="tituloHerramientas">Herramientas de Desarrollo</h3>
+    <div class="container p-1">
+      <div class="row row-cols-2 row-cols-md-6 g-2 justify-content-center">
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://www.mysql.com/products/workbench/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/mysql.jpg" class="card-img-top" alt="mysql">
+              <div class="card-body">
+                <h5 class="card-title">MySQL</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://www.mongodb.com/es" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/mongo.jpg" class="card-img-top" alt="mongo">
+              <div class="card-body">
+                <h5 class="card-title">MongoDB</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://code.visualstudio.com/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/vsc.jpg" class="card-img-top" alt="svc">
+              <div class="card-body">
+                <h5 class="card-title">Visual Studio Code</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/html.jpg" class="card-img-top" alt="html">
+              <div class="card-body">
+                <h5 class="card-title">HTML5</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://developer.mozilla.org/es/docs/Web/css" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/css.jpg" class="card-img-top" alt="css">
+              <div class="card-body">
+                <h5 class="card-title">CSS3</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://getbootstrap.com/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/boots.jpg" class="card-img-top" alt="bootstrap">
+              <div class="card-body">
+                <h5 class="card-title">Bootstrap</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="tituloHerramientas">Lenguaje de programación JavaScript</h3>
+    <div class="container p-1">
+      <div class="row row-cols-2 row-cols-md-6 g-2 justify-content-center">
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/js.jpg" class="card-img-top" alt="javaScript">
+              <div class="card-body">
+                <h5 class="card-title">Lenguaje JavaScript</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://react.dev/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/react.jpg" class="card-img-top" alt="react">
+              <div class="card-body">
+                <h5 class="card-title">React.js</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://reactnative.dev/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/reactNative.jpg" class="card-img-top" alt="reactNative">
+              <div class="card-body">
+                <h5 class="card-title">React Native.js</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://www.electronjs.org/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/electron.jpg" class="card-img-top" alt="electron">
+              <div class="card-body">
+                <h5 class="card-title">Electrón.js</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://nodejs.org/en" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/node.jpg" class="card-img-top" alt="node">
+              <div class="card-body">
+                <h5 class="card-title">Node.js</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="tituloHerramientas">Herramientas de Pruebas</h3>
+    <div class="container p-1">
+      <div class="row row-cols-2 row-cols-md-6 g-2 justify-content-center">
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://www.postman.com/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/postman.jpg" class="card-img-top" alt="postman">
+              <div class="card-body">
+                <h5 class="card-title">Postman</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://www.soapui.org/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/soapUI.jpg" class="card-img-top" alt="soapui">
+              <div class="card-body">
+                <h5 class="card-title">SoapUI</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://www.kali.org/get-kali/#kali-platforms" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/kali.jpg" class="card-img-top" alt="kali">
+              <div class="card-body">
+                <h5 class="card-title">Kali Linux</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="tituloHerramientas">Herramientas de Repositorio y despliegue</h3>
+    <div class="container p-1">
+      <div class="row row-cols-2 row-cols-md-6 g-2 justify-content-center">
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://github.com/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/git.jpg" class="card-img-top" alt="github">
+              <div class="card-body">
+                <h5 class="card-title">Git Hub</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://ubuntu.com/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/ubuntu.jpg" class="card-img-top" alt="ubuntu">
+              <div class="card-body">
+                <h5 class="card-title">Ubuntu server</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://play.google.com/store/" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/app.jpg" class="card-img-top" alt="play store">
+              <div class="card-body">
+                <h5 class="card-title">Play store console</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <a href="https://www.microsoft.com/es-ad/store/b/home" target="_blank" style="text-decoration: none; color: black;">
+              <img src="/src/imgs/win.jpg" class="card-img-top" alt="microsoft store">
+              <div class="card-body">
+                <h5 class="card-title">Microsoft store</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Servicios -->
+  <div id="servicios">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/src/imgs/icon_web.png" class="d-block mx-auto m-4" alt="web">
+          <h3 class="text-light text-center">Desarrollo Web</h3>
+          <p class="text-light text-center">Sitios web personales y portafolios de servicios, Tiendas virtuales o E-comerse con diseño atractivo y Páginas web empresariales.</p>
+        </div>
+        <div class="carousel-item">
+          <img src="/src/imgs/icon_androide.png" class="d-block mx-auto m-4" alt="android">
+          <h3 class="text-light text-center">Desarrollo Andorid</h3>
+          <p class="text-light text-center">Aplicaciones y programas para el desarrollo de tareas específicas en sistema Windows, de tipo administración y ventas POS.</p>
+        </div>
+        <div class="carousel-item">
+          <img src="/src/imgs/icon_win.png" class="d-block mx-auto m-4" alt="win">
+          <h3 class="text-light text-center">Desarrollo Windows</h3>
+          <p class="text-light text-center">Aplicaciones de tipo ATM para administrar o generar ventas para sistemas Android según sus requerimientos técnicos.</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- Proyectos -->
+  <h2 style="text-align: center; color:white; margin-top: 30px; margin-bottom: 20px;">Proyectos realizados</h2>
+  <div class="container">
+    <h3 class="tituloHerramientas mt-4">Aplicaciones Android</h3>
+    <div class="row row-cols-1 row-cols-md-2 g-1 m-1 justify-content-center">
+      <div class="col">
+        <div class="container-card">
+          <img src="/src/imgs/ref_studiomovil.jpg" alt="FotoStudio - App móvil" class="image">
+          <div class="overlay">
+            <div class="text">
+              <h6>CLIENTE</h6>
+              <p>FotoStudio - App móvil</p>
+              <a style="color: white; border: 1px solid white;" class="btn" href="https://play.google.com/store/apps/details?id=appinventor.ai_jdgs_1505.Fotos_de_Grado" target="_blank">Clic aquí</a>
+              <p>Marzo 2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <h3 class="tituloHerramientas mt-4">Páginas Web</h3>
+    <div class="row row-cols-1 row-cols-md-2 g-1 m-1 justify-content-center">
+      <div class="col">
+        <div class="container-card">
+          <img src="/src/imgs/ref_PL.jpg" alt="FotoStudio - Página web" class="image">
+          <div class="overlay">
+            <div class="text">
+              <h6>CLIENTE</h6>
+              <p>FotoStudio - Página web</p>
+              <a style="color: white; border: 1px solid white;" class="btn" href="https://www.produccioneslennin.online/" target="_blank">Clic aquí</a>
+              <p>Junio 2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="container-card">
+          <img src="/src/imgs/ref_pacha.jpg" alt="Pachamama - Página web" class="image">
+          <div class="overlay">
+            <div class="text">
+              <h6>CLIENTE</h6>
+              <p>Pachamama - Página web</p>
+              <a style="color: white; border: 1px solid white;" class="btn" href="https://www.pachamamacoffe.shop/" target="_blank">Clic aquí</a>
+              <p>Noviembre 2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="container-card bg-light">
+          <img src="/src/imgs/ref_fupsi.jpg" alt="Pachamama - Página web" class="image">
+          <div class="overlay">
+            <div class="text">
+              <h6>Fundación fupsinort</h6>
+              <p>Fupsinort - página web</p>
+              <a style="color: white; border: 1px solid white;" class="btn" href="https://www.fupsinort.site/" target="_blank">Clic aquí</a>
+              <p>Agosto 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="container-card">
+          <img src="/src/imgs/ref_celesteS.jpg" alt="Celeste model - Web personal" class="image">
+          <div class="overlay">
+            <div class="text">
+              <h6>CLIENTE</h6>
+              <p>Celeste model - Web personal</p>
+              <a style="color: white; border: 1px solid white;" class="btn" href="https://www.celestesaraviawebspace.online/" target="_blank">Clic aquí</a>
+              <p>Marzo 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <h3 class="tituloHerramientas mt-4">Tiendas virtuales</h3>
+    <div class="row row-cols-1 row-cols-md-2 g-1 m-1 justify-content-center">
+      <div class="col">
+        <div class="container-card">
+          <img src="/src/imgs/ref_anashoes.jpg" alt="Ana Milena - Tienda virtual" class="image">
+          <div class="overlay">
+            <div class="text">
+              <h6>CLIENTE</h6>
+              <p>Ana Milena - Tienda virtual</p>
+              <a style="color: white; border: 1px solid white;" class="btn" href="https://www.anamilena.shop/" target="_blank">Clic aquí</a>
+              <p>Enero 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Pronosticador -->
+  <div class="pronosticador" id="pronosticador">
+    <h3 class="tituloHerramientas mt-4">Pronosticos en inversiones y apuestas</h3>
+    <div class="card-group">
+      <div class="card">
+        <a href="https://deriv.com/" target="_blank">
+          <img src="/src/imgs/tr_view.jpg" class="card-img-top" alt="view">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">Trading view</h5>
+          <p class="card-text">Opere con CFD y opciones en los mercados financieros globales, todo en un solo lugar con operaciones 24 horas al día, 7 días a la semana y soporte mundial.</p>
+        </div>
+        <!-- <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div> -->
+      </div>
+      <div class="card">
+        <a href="https://admiralmarkets.sc/latam" target="_blank">
+          <img src="/src/imgs/tr_mt5.png" class="card-img-top" alt="meta">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">Meta trader</h5>
+          <p class="card-text">¡Opere libre de swaps en los pares de divisas, metales y CFDs sobre índices más populares!</p>
+        </div>
+        <!-- <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div> -->
+      </div>
+      <div class="card">
+        <a href="https://www.xm.com/es/" target="_blank">
+          <img src="/src/imgs/tr_xm.png" class="card-img-top" alt="xm">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">XM</h5>
+          <p class="card-text">Opere con forex, CFD sobre acciones, metales y más.</p>
+        </div>
+        <!-- <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- Links -->
+  <div class="links" id="links">
+    <div class="social">
+      <h3>Links</h3>
+      <a class="button" href="https://www.jodagsoftware.com/" target="_blank">Página web</a>
+      <hr>
+      <a class="button" href="https://github.com/joanda15" target="_blank">GitHub</a>
+      <hr>
+      <a class="button" href="https://platzi.com/p/Jodags_Dev/" target="_blank">Platzi</a>
+    </div>
+    <!-- Contactos -->
+    <div class="contactos">
+      <h3 id="contactos">Contactame</h3>
+      <a class="button" href="mailto:jdgs.1505@gmail.com" target="_blank">Correo electrónico</a>
+      <hr>
+      <a class="button" href="https://wa.me/573152220663/?text=Cordial saludo desarrollador." target="_blank">WhatsApp</a>
+      <hr>
+      <a class="button" href="tel:+573152220663" target="_blank">Llamame +573152220663</a>
+    </div>
+  </div>
+  <!-- Formulario -->
+  <div class="formulario">
+    <img src="/src/imgs/foto2.jpg" alt="foto pie">
+    <form class="bg-light m-2 p-4" action="api/registroForm.php" method="POST">
+      <h5>Tu opinión es muy importante</h5>
+      <div class="mb-3">
+        <label for="emailUser" class="form-label">Dirección de correo electrónico</label>
+        <input type="email" class="form-control" id="emailUser" name="emailUser" aria-describedby="emailHelp" required>
+      </div>
+      <div class="mb-3">
+        <label for="opinion" class="form-label">Escribe tu opinión</label>
+        <textarea class="form-control" id="opinion" name="opinion" rows="3" required></textarea>
+      </div>
+      <p>Autorizo el tratamiento de mis datos personales a Jodags Dev para la finalidad de contactarme.</p>
+      <button type="submit" name="register" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>  
+  <!-- Banner -->
+  <div class="informacion m-4" id="contactos">
+    <img id="logo" src="/src/imgs/Logo.jpg" alt="Logo">
+    <h2>Colombia</h2>
+    <h2>San José de Cúcuta</h2>
+  </div>
+  <!-- Ubicacion -->
+  <div class="contenedor-ubicacion">
+    <h2 style="text-align: center; color:white; margin-top: 10px; margin-bottom: 10px;"></h2>
+    <div class="ubicacion-interno" id="ubicacion">
+      <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3597.7356156759647!2d-72.49089358954954!3d7.917138677640276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1679021612782!5m2!1ses!2sco" width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </div>
+  </div>
+  <!-- Foot -->
+  <div class="foot bg-dark">
+    <h5 class="text-center text-light p-4">Hecho con <img src="src/imgs/corazon.gif" alt="corazon"> por Jogosa Dev</h5>
+  </div>
+</body>
+</html>

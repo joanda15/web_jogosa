@@ -1,0 +1,5 @@
+# Ignorar la carpeta .vscode y todos sus contenidos
+
+# Ignorar todos los archivos y carpetas (excepto .vscode/)
+
+# Excepto los archivos dentro de .vscode/ que deseas incluir explícitamente
